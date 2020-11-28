@@ -1,0 +1,45 @@
+// 2020-11-10, gyarte
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+// @include flex-center;
+
+@mixin flex-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+// @include flex-row;
+
+@mixin flex-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 3fr;
+    grid-gap: 1rem;
+    margin: 0;
+    grid-template-areas:
+    'nav'
+    'header'
+    'footer';
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../misc/monsterat-woff/montserrat-regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans', sans-serif;
+    src: url('FiraSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../misc/monsterat-woff/montserrat-regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Fira Sans', sans-serif;
+  src: url("FiraSans-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+h1 {
+  font-family: 'montserratregular'; }
+
+p {
+  font-family: 'Fira Sans', sans-serif; }
+
+body {
+  font-family: 'Fira Sans', sans-serif; }
+  body header {
+    background-image: url(../img/spirals-abstract.jpg);
+    background-position: center center;
+    background-size: cover; }
+    body header nav {
+      background-color: #EEEEEE; }
+    body header footer {
+      background-color: #fcba03; }
+
+/*# sourceMappingURL=master.css.map */

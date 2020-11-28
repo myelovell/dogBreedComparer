@@ -1,0 +1,37 @@
+// 2020-11-10, gyarte
+@import 'variables';
+@import 'components';
+
+
+h1 {font-family: 'montserratregular';}
+p {font-family: 'Fira Sans', sans-serif;}
+
+body {
+    // @include grid;
+    font-family: 'Fira Sans', sans-serif;
+    header {
+        // grid-area: header;
+        background-image: url(../img/spirals-abstract.jpg);
+        background-position: center center;
+        background-size: cover;
+        nav {
+            background-color: #EEEEEE;
+            .navigation {
+                // grid-area: nav;
+                // position: fixed;
+                // width: 100%;
+
+            }
+
+        }
+    main {
+
+    }
+    footer {
+        // grid-area: footer;
+        background-color: #fcba03;
+        .contactInformation {
+        }
+    }
+    }
+}
