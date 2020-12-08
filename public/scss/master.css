@@ -15,14 +15,44 @@ p {
   font-family: 'Fira Sans', sans-serif; }
 
 body {
+  height: 300vh;
+  margin: 0%;
   font-family: 'Fira Sans', sans-serif; }
   body header {
+    height: 60vh;
     background-image: url(../img/spirals-abstract.jpg);
     background-position: center center;
     background-size: cover; }
     body header nav {
-      background-color: #EEEEEE; }
-    body header footer {
-      background-color: #fcba03; }
+      position: fixed;
+      width: 100%;
+      background-color: #EEEEEE;
+      height: 3rem;
+      font-size: 10px; }
+      body header nav .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        body header nav .navigation .logo {
+          margin-top: 0rem;
+          width: 20rem;
+          height: auto; }
+  body main {
+    display: flex;
+    justify-content: center; }
+    body main .main {
+      margin-top: -10rem;
+      background-color: #EEEEEE;
+      width: 90vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      body main .main .slideshow {
+        background-color: lightgrey;
+        height: 90vh;
+        width: 20rem;
+        margin-left: 70%; }
+  body footer {
+    background-color: #fcba03; }
 
 /*# sourceMappingURL=master.css.map */

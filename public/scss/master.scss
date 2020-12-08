@@ -4,34 +4,59 @@
 
 
 h1 {font-family: 'montserratregular';}
-p {font-family: 'Fira Sans', sans-serif;}
+p {font-family: 'Fira Sans', sans-serif;} //change to helvetica nueve
 
 body {
     // @include grid;
+    height: 300vh;
+    margin: 0%;
     font-family: 'Fira Sans', sans-serif;
     header {
+        height: 60vh;
         // grid-area: header;
         background-image: url(../img/spirals-abstract.jpg);
         background-position: center center;
         background-size: cover;
         nav {
+            position: fixed;
+            width: 100%;
             background-color: #EEEEEE;
+            height: 3rem;
+            font-size: 10px;
             .navigation {
-                // grid-area: nav;
-                // position: fixed;
-                // width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                .logo {
 
+                    margin-top: 0rem;
+                    width: 20rem;
+                    height: auto;
+                }
             }
-
         }
+
+    }
     main {
+        display: flex;
+        justify-content: center;
+        .main {
+            margin-top: -10rem;
+            background-color: #EEEEEE;
+            width: 90vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .slideshow {
+                background-color: lightgrey;
+                height: 90vh;
+                width: 20rem;
+                margin-left: 70%;
+            }
+        }
 
     }
     footer {
-        // grid-area: footer;
         background-color: #fcba03;
-        .contactInformation {
-        }
-    }
     }
 }
