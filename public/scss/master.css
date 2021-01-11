@@ -15,35 +15,34 @@ p {
   font-family: 'Fira Sans', sans-serif; }
 
 body {
-  height: 300vh;
+  height: 440vh;
   margin: 0%;
   font-family: 'Fira Sans', sans-serif; }
   body header {
-    height: 60vh;
-    background-image: url(../img/spirals-abstract.jpg);
-    background-position: center center;
-    background-size: cover; }
+    height: 100vh; }
+    body header .shapeUpper {
+      display: flex;
+      float: right;
+      width: auto;
+      height: 80vh; }
+    body header .logo {
+      margin: 2rem 5rem 0 2rem;
+      width: 16rem;
+      height: auto;
+      position: fixed; }
     body header nav {
-      position: fixed;
-      width: 100%;
-      background-color: #EEEEEE;
+      display: flex;
       height: 3rem;
-      font-size: 10px; }
+      font-size: 10px;
+      margin-left: 35vw; }
       body header nav .navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around; }
-        body header nav .navigation .logo {
-          margin-top: 0rem;
-          width: 20rem;
-          height: auto; }
+        display: flex; }
   body main {
     display: flex;
     justify-content: center; }
     body main .main {
-      margin-top: -10rem;
       background-color: #EEEEEE;
-      width: 90vw;
+      height: auto;
       display: flex;
       justify-content: center;
       flex-direction: column; }
@@ -51,8 +50,17 @@ body {
         background-color: lightgrey;
         height: 90vh;
         width: 20rem;
-        margin-left: 70%; }
-  body footer {
-    background-color: #fcba03; }
+        margin-left: 60vw; }
+      body main .main section div {
+        height: 10rem;
+        width: 100vw;
+        background-color: lightgrey; }
+      body main .main section .directory0 {
+        margin-left: 0; }
+      body main .main section .directory {
+        margin-right: 0vw; }
+  body footer .shapeLower {
+    width: 100vw;
+    height: auto; }
 
 /*# sourceMappingURL=master.css.map */

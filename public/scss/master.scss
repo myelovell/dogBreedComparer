@@ -8,31 +8,35 @@ p {font-family: 'Fira Sans', sans-serif;} //change to helvetica nueve
 
 body {
     // @include grid;
-    height: 300vh;
+    height: 440vh;
     margin: 0%;
     font-family: 'Fira Sans', sans-serif;
     header {
-        height: 60vh;
-        // grid-area: header;
-        background-image: url(../img/spirals-abstract.jpg);
-        background-position: center center;
-        background-size: cover;
-        nav {
+        .shapeUpper {
+            display: flex;
+            float: right;
+            width: auto;
+            height: 80vh;
+        }
+        height: 100vh;
+        // background-image: url(../img/spirals-abstract.jpg);
+        // background-position: center center;
+        // background-size: cover;
+        .logo {
+            margin: 2rem 5rem 0 2rem;
+            width: 16rem;
+            height: auto;
             position: fixed;
-            width: 100%;
-            background-color: #EEEEEE;
+        }
+        nav {
+            display: flex;
             height: 3rem;
             font-size: 10px;
+            margin-left: 35vw;
             .navigation {
                 display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                .logo {
-
-                    margin-top: 0rem;
-                    width: 20rem;
-                    height: auto;
-                }
+                // flex-direction: row;
+                // justify-content: space-around;
             }
         }
 
@@ -41,9 +45,10 @@ body {
         display: flex;
         justify-content: center;
         .main {
-            margin-top: -10rem;
+            // margin-top: -10rem;
             background-color: #EEEEEE;
-            width: 90vw;
+            // width: 90vw;
+            height: auto;
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -51,12 +56,28 @@ body {
                 background-color: lightgrey;
                 height: 90vh;
                 width: 20rem;
-                margin-left: 70%;
+                margin-left: 60vw;
+            }
+            section {
+                div {
+                    height: 10rem;
+                    width: 100vw;
+                    background-color: lightgrey;
+
+                }
+                .directory0 {
+                    margin-left: 0;
+                }
+                .directory {
+                    margin-right: 0vw;
+                }
             }
         }
 
     }
     footer {
-        background-color: #fcba03;
+
+        // background-color: #fcba03;
+
     }
 }
