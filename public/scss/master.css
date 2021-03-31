@@ -2,65 +2,107 @@
   font-family: 'montserratregular';
   src: url("../misc/monsterat-woff/montserrat-regular-webfont.woff");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Fira Sans', sans-serif;
   src: url("FiraSans-Regular.ttf") format("ttf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 h1 {
-  font-family: 'montserratregular'; }
+  font-family: 'montserratregular';
+}
 
 p {
-  font-family: 'Fira Sans', sans-serif; }
+  font-family: 'Fira Sans', sans-serif;
+}
 
 body {
   height: 440vh;
   margin: 0%;
-  font-family: 'Fira Sans', sans-serif; }
-  body header {
-    height: 100vh; }
-    body header .shapeUpper {
-      display: flex;
-      float: right;
-      width: auto;
-      height: 80vh; }
-    body header .logo {
-      margin: 2rem 5rem 0 2rem;
-      width: 16rem;
-      height: auto;
-      position: fixed; }
-    body header nav {
-      display: flex;
-      height: 3rem;
-      font-size: 10px;
-      margin-left: 35vw; }
-      body header nav .navigation {
-        display: flex; }
-  body main {
-    display: flex;
-    justify-content: center; }
-    body main .main {
-      background-color: #EEEEEE;
-      height: auto;
-      display: flex;
-      justify-content: center;
-      flex-direction: column; }
-      body main .main .slideshow {
-        background-color: lightgrey;
-        height: 90vh;
-        width: 20rem;
-        margin-left: 60vw; }
-      body main .main section div {
-        height: 10rem;
-        width: 100vw;
-        background-color: lightgrey; }
-      body main .main section .directory0 {
-        margin-left: 0; }
-      body main .main section .directory {
-        margin-right: 0vw; }
-  body footer .shapeLower {
-    width: 100vw;
-    height: auto; }
+  font-family: 'Fira Sans', sans-serif;
+}
 
+body header {
+  height: 100vh;
+}
+
+body header .shapeUpper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  width: auto;
+  height: 80vh;
+}
+
+body header .logo {
+  margin: 2rem 5rem 0 2rem;
+  width: 16rem;
+  height: auto;
+  position: fixed;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  font-size: 10px;
+  margin-left: 35vw;
+}
+
+body header nav .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .main {
+  background-color: #EEEEEE;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .main .slideshow {
+  background-color: lightgrey;
+  height: 90vh;
+  width: 20rem;
+  margin-left: 60vw;
+}
+
+body main .main section div {
+  height: 10rem;
+  width: 100vw;
+  background-color: lightgrey;
+}
+
+body main .main section .directory0 {
+  margin-left: 0;
+}
+
+body main .main section .directory {
+  margin-right: 0vw;
+}
 /*# sourceMappingURL=master.css.map */
